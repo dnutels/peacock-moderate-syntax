@@ -66,5 +66,10 @@
 }
 
 .editor.mini .scroll-view {
-  padding-left: 1px;
+  padding-left: 10px;
+}
+
+.highlights .highlight-selected.light-theme .region, atom-text-editor .highlights .highlight-selected.light-theme .region, atom-text-editor::shadow .highlights .highlight-selected.light-theme .region {
+  background-color: transparent !important;
+  border-color: @very-light-gray;
 }
