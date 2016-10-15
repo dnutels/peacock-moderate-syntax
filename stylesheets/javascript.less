@@ -8,11 +8,15 @@
 .string {
     &.js {
         &.quoted {
-            color: @yellow;
+            color: @green;
+
+            .punctuation {
+                color: @green;                
+            }
         }
 
         &.unquoted {
-            color: @yellow;
+            color: @green;
         }
     }
 }
@@ -85,16 +89,21 @@
 
 .js {
     .jsx {
-        .name, .punctuation {
-            color: @bright-purple;
+        color: @purple;
+
+        .name, .component {
+            color: @light-blue;
+            font-style: normal;
         }
 
-        .attribute-name, .assignment {
+        .attribute-name, .assignment, .punctuation, .string.punctuation {
+            color: @pale-blue;
+            font-style: normal !important;
+        }
+
+        .variable, .string {
+            font-style: normal;
             color: @purple;
-        }
-
-        .variable {
-            color: @orange;
         }
     }
 }
