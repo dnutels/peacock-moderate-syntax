@@ -1,3 +1,3 @@
 # peacock-moderate-syntax theme
 
-My personal interpretation of xeta-peacock theme.
+My personal interpretation of the peacock theme, with less vibrant colors.
