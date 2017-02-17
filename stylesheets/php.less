@@ -1,98 +1,98 @@
 @import "syntax-variables";
 
-.source.php {
+.syntax--source.syntax--php {
     color: @red;
 }
 
-.keyword.php {
+.syntax--keyword.syntax--php {
     color: @blue;
 }
 
-.entity {
+.syntax--entity {
 
-    &.namespace.php,
-    &.class.php,
-    &.inherited-class.php {
+    &.syntax--namespace.syntax--php,
+    &.syntax--class.syntax--php,
+    &.syntax--inherited-class.syntax--php {
         color: @orange;
     }
 
-    &.function.php {
+    &.syntax--function.syntax--php {
         color: @yellow;
     }
 }
 
-.punctuation.php {
+.syntax--punctuation.syntax--php {
     color: @red;
 }
 
-.support {
+.syntax--support {
 
-    &.namespace.php,
-    &.class.php {
+    &.syntax--namespace.syntax--php,
+    &.syntax--class.syntax--php {
         color: @orange;
     }
 
-    &.function {
+    &.syntax--function {
 
-        &.magic.php {
+        &.syntax--magic.syntax--php {
             color: @yellow;
             font-style: italic;
         }
 
-        &.php {
+        &.syntax--php {
             color: @blue;
         }
 
     }
 }
 
-.storage.php {
+.syntax--storage.syntax--php {
     color: @blue;
 }
 
-.comment.php {
+.syntax--comment.syntax--php {
     color: @comment-php;
     font-style: @comment-font;
 }
 
-.variable {
+.syntax--variable {
 
-    &.php {
+    &.syntax--php {
         color: @variable-php;
     }
 
-    &.property.php {
+    &.syntax--property.syntax--php {
         color: @orange;
     }
 }
 
-.meta {
+.syntax--meta {
 
-    &.string-contents.php {
+    &.string-contents.syntax--php {
         color: @yellow;
     }
 
-    &.function-call.php {
+    &.syntax--function-call.syntax--php {
         color: @orange;
     }
 }
 
-.constant {
+.syntax--constant {
 
-    &.other.php {
+    &.syntax--other.syntax--php {
         color: @constant-php;
         font-style: italic;
     }
 
-    &.language.php {
+    &.syntax--language.syntax--php {
         color: @blue;
     }
 
-    &.numeric.php {
+    &.syntax--numeric.syntax--php {
         color: @numeric-php;
     }
 }
 
-.invalid.php {
+.syntax--invalid.syntax--php {
     color: @red;
 }

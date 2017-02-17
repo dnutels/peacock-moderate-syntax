@@ -1,94 +1,94 @@
 @import "syntax-variables";
 
-.keyword {
+.syntax--keyword {
 
-    &.at-rule.scss {
+    &.syntax--at-rule.syntax--scss {
         color: @blue;
     }
 
-    &.unit {
+    &.syntax--unit {
         color: @numeric-scss;
     }
 }
 
-.comment.scss {
+.syntax--comment.syntax--scss {
     color: @comment-scss;
     font-style: @comment-font;
 }
 
-.scss .variable {
+.syntax--scss .syntax--variable {
     color: @blue;
 }
 
-.punctuation {
+.syntax--punctuation {
 
-    &.constant.scss {
+    &.syntax--constant.syntax--scss {
         color: @numeric-scss;
     }
 
-    &.key-value.scss,
-    &.terminator.scss {
+    &.syntax--key-value.syntax--scss,
+    &.syntax--terminator.syntax--scss {
         color: @blue;
     }
 
 }
 
-.constant {
+.syntax--constant {
 
-    &.color.scss {
+    &.syntax--color.syntax--scss {
         color: @numeric-scss;
     }
 
-    &.numeric.scss {
+    &.syntax--numeric.syntax--scss {
         color: @numeric-scss;
     }
 }
 
-.string {
+.syntax--string {
 
-    &.quoted.scss {
+    &.syntax--quoted.syntax--scss {
         color: @yellow;
     }
 }
 
-.entity {
+.syntax--entity {
 
-    &.function.scss {
+    &.syntax--function.syntax--scss {
         color: @light-green;
         font-style: italic;
     }
 
-    &.attribute-name.css,
-    &.attribute-name.scss {
+    &.syntax--attribute-name.syntax--css,
+    &.syntax--attribute-name.syntax--scss {
         color: @yellow
     }
 
-    &.tag.scss {
+    &.syntax--tag.syntax--scss {
         color: @blue;
     }
 }
 
-.support {
+.syntax--support {
 
-    &.property-name.scss {
+    &.syntax--property-name.syntax--scss {
         color: @orange;
     }
 
-    &.function.scss {
+    &.syntax--function.syntax--scss {
         color: @blue;
     }
 
-    &.property-value {
+    &.syntax--property-value {
         color: @yellow;
     }
 
-    &.font-name.scss {
+    &.syntax--font-name.syntax--scss {
         color: #FFF;
     }
 }
 
-.meta {
-    &.property-value.scss {
+.syntax--meta {
+    &.syntax--property-value.syntax--scss {
         color: @yellow;
     }
 }

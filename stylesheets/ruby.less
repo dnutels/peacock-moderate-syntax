@@ -1,42 +1,42 @@
 @import "syntax-variables";
 
-.comment.ruby {
+.syntax--comment.syntax--ruby {
     color: @comment-rb;
     font-style: @comment-font;
 }
 
-.keyword.ruby {
+.syntax--keyword.syntax--ruby {
     color: @blue;
 }
 
-.entity {
+.syntax--entity {
 
-    &.class.ruby {
+    &.syntax--class.syntax--ruby {
         color: @orange;
     }
 
-    &.function.ruby {
+    &.syntax--function.syntax--ruby {
         color: @yellow;
     }
 }
 
-.string.ruby {
+.syntax--string.syntax--ruby {
     color: @yellow;
 
-    .punctuation.ruby {
+    .syntax--punctuation.syntax--ruby {
         color: @yellow;
     }
 }
 
-.support.ruby {
+.syntax--support.syntax--ruby {
     color: @orange;
 }
 
-.punctuation {
+.syntax--punctuation {
 
-    &.method.ruby,
-    &.section.ruby,
-    &.parameters.ruby {
+    &.syntax--method.syntax--ruby,
+    &.syntax--section.syntax--ruby,
+    &.syntax--parameters.syntax--ruby {
         color: @red;
     }
 }

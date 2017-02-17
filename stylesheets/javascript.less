@@ -1,117 +1,117 @@
 @import "syntax-variables";
 
-.comment.js {
+.syntax--comment.syntax--js {
     color: @comment-js;
     font-style: @comment-font;
 }
 
-.string {
-    &.js {
-        &.quoted {
+.syntax--string {
+    &.syntax--js {
+        &.syntax--quoted {
             color: @green;
 
-            .punctuation {
+            .syntax--punctuation {
                 color: @green;
             }
 
-            &.template.js {
-                .variable {
+            &.syntax--template.syntax--js {
+                .syntax--variable {
                     color: @light-orange;
                 }
             }
         }
 
-        &.unquoted {
+        &.syntax--unquoted {
             color: @light-orange;
         }
 
-        &.regexp {
+        &.syntax--regexp {
             color: @real-white;
         }
     }
 }
 
-.punctuation {
+.syntax--punctuation {
 
-    &.string.js,
-    &.terminator.js,
-    &.scope.js,
-    &.parameters.js {
+    &.syntax--string.syntax--js,
+    &.syntax--terminator.syntax--js,
+    &.syntax--scope.syntax--js,
+    &.syntax--parameters.syntax--js {
         color: @white;
     }
 }
 
-.meta {
+.syntax--meta {
 
-    &.brace.js {
+    &.syntax--brace.syntax--js {
         color: @white;
     }
 }
 
-.storage {
-    &.js {
+.syntax--storage {
+    &.syntax--js {
         color: @blue;
 
-        &.modifier {
+        &.syntax--modifier {
             color: @red;
         }
     }
 }
 
-.support {
+.syntax--support {
 
-    &.js,
-    &.function.js,
-    &.constant.js {
+    &.syntax--js,
+    &.syntax--function.syntax--js,
+    &.syntax--constant.syntax--js {
         color: @orange;
     }
 }
 
-.entity {
+.syntax--entity {
 
-    &.function.js {
+    &.syntax--function.syntax--js {
         color: @yellow;
     }
 }
 
-.keyword.js {
+.syntax--keyword.syntax--js {
     color: @blue;
 }
 
-.constant {
+.syntax--constant {
 
-    &.language {
+    &.syntax--language {
         color: @blue;
     }
 
-    &.numeric.js {
+    &.syntax--numeric.syntax--js {
         color: @numeric-js;
     }
 }
 
-&.variable {
-    &.js {
-        &.this {
+&.syntax--variable {
+    &.syntax--js {
+        &.syntax--this {
             color: @bright-orange;
         }
     }
 }
 
-.js {
-    .jsx {
+.syntax--js {
+    .syntax--jsx {
         color: @purple;
 
-        .name, .component {
+        .syntax--name, .syntax--component {
             color: @light-blue;
             font-style: normal;
         }
 
-        .attribute-name, .assignment, .punctuation, .string.punctuation {
+        .syntax--attribute-name, .syntax--assignment, .syntax--punctuation, .syntax--string.syntax--punctuation {
             color: @pale-blue;
             font-style: normal !important;
         }
 
-        .variable, .string {
+        .syntax--variable, .syntax--string {
             font-style: normal;
             color: @purple;
         }
